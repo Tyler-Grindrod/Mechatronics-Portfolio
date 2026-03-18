@@ -42,4 +42,5 @@ Each folder below contains the source code, circuit diagrams, and brief technica
 * **Skills Learned:** Stepper logic Sequences & Electric Motor Interface.
 
 ### [Lab 5: Sensors & Data Acquisition](./Lab_5-Sensors_&_Data_Acquisition)
-  
+* **Goal:** Monitor phtoresistor & thermistor performance against varying fixed resistors and distance tracking using an ultrasonic sensor.
+* **Skills Learned:** Sensor Calibration, Voltage Divider Design, and Signal Processing.
