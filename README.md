@@ -23,5 +23,5 @@ Each folder below contains the source code, circuit diagrams, and brief technica
 
 ### [Lab 1: Arduino Data to CSV](./Lab_0./Lab_0-CSV.ino)
 *  **Goal:** Format Arduino serial monitor data for an easy excel import.
-*  **skill Learned:** Learning to define sensor input and formart snesor data into an import ready CSv file. I also learned how to convert bits to voltage readings.
+*  **Skills Learned:** Learning to define sensor input and formart snesor data into an import ready CSv file. I also learned how to convert bits to voltage readings.
 
