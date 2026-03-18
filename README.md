@@ -32,3 +32,8 @@ Each folder below contains the source code, circuit diagrams, and brief technica
 ### [Lab 2: Dynamic Input & Joystick Control](./Lab_2-Dynamic_Signal_Mapping)
 * **Goal:** Interface a 2-axis joystick to control a LED PWM, Servo positioning, and an active Buzzer.
 * **Skills Learned:** Analog-to-Digital Mapping & Puilse Width Modulation (PWM) control.
+
+### [Lab 3: Circuit Design & Analog Electronics](./Lab_3-Circuits_&_Analog_Electronics)
+* **Goal:** Design and simulate analog circuits including OP-Amp Addition/Subtraction, Indusctor time constant, and Temperature Comparators.
+* **Skills Learned:** Signal Processing with OP-Amps & Passive Dynamcis.
+  
