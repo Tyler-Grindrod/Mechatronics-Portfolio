@@ -65,3 +65,7 @@ void loop() {
   delay(50); // High-frequency sampling for thermal gradients
 }
 ```
+## Lessons Learned
+*  **Resistors:** The "ideal" passive resistor in a voltage divider should closely match the sensor's resistance at its most common operating point to maximize sensitivity
+*  **Pulse Duration:** Discovered that even minor deviations in the trigger pulse timing (`delayMicroseconds`) can impact the reliability of the sensor
+*  **Noise:** Observed that analog sensor readings can be noisy, necessitating a small `delay()` or software filtering to stabilize data for graphing.
