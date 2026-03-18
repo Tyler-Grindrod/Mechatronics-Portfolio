@@ -16,7 +16,7 @@ Analyzed the behavuior of an inductor in a DC circuit with a flyback diode.
 *  **Lesson:** I found the inductor initially acts as an open circuit ($0mA$) and behaves like a short circuit as current stablizes. I also learned that the flyback diode is a critical component that disspates the magnetic field when the switch opens, this prevent high-voltage spikes on the board.
 
 ### 3. Op-Amp Signal Processing
-Implemented an Addition and Subtraction (Differential) circuits using an Op-Amp driven by $+/-30V$
+Implemented an Addition and Subtraction (Differential) circuits using an Op-Amp driven by ($+/-30V$)
 * **Addition:** Calculated and verified the inverted output for various feedback resistor $RF$ values
 * **Subtraction:** Analyzed a differential amplifier to remain within the power supply rails
-* **Saturation Analysis:** Identitied that an R
+* **Saturation Analysis:** Identitied that an $RF$ of $25\KΩ&
