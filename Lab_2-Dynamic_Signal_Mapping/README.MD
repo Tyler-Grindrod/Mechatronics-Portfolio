@@ -25,3 +25,5 @@ myServo.write(servoAngle);
 // Mapping Joystick to LED Intensity
 int ledPWM = map(xVal, 0, 1023, 0, 255);
 analogWrite(ledPin, ledPWM);
+
+https://youtu.be/kf10Zy_-o3U
