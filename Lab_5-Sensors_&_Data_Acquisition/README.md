@@ -6,9 +6,10 @@ This lab focused on practical application of analog and digital sensors. The pro
 ## System Components
 
 ###  1. Photoresistor
-Optimize the sensitivty of a phtoresistor, different passive resistors (1kΩ, 5kΩ, 10kΩ) were tested in a voltage divider configuration.
+Optimize the sensitivty of a phtoresistor, different passive resistors (1kΩ, 5kΩ, 10kΩ, 20kΩ, 30kΩ) were tested in a voltage divider configuration.
 *  **Objective:** Find the reistor that provides the best range of operation and linear sensitivity.
 *  **Findings:** A 10kΩ resistor was found the be the best match, providing a wife range of output bits relative to the fluctuation of lumens.
+
 
 ### Photoresistor Logic
 
@@ -51,7 +52,7 @@ void loop() {
 ```
 
 ###  3. Thermistor 
-Implement a thermal sensing cricuit to monitor ambient temperature changes using different passive resistors (1kΩ, 5kΩ, 10kΩ) were tested in a voltage divider configuration.
+Implement a thermal sensing cricuit to monitor ambient temperature changes using different passive resistors (120Ω, 240Ω, 360Ω, 1.5kΩ, 5kΩ) were tested in a voltage divider configuration.
 *  **Objective:** Use a NTC (Negative Temperature Coefficent) thermistor with the Arduino ADC to capture thermal data
 *  **Findings:** As temeprature increases, the resistance of the thermistor decreases, resulting in a higher voltage reading at the analog pin.
 
