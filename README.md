@@ -29,6 +29,6 @@ Each folder below contains the source code, circuit diagrams, and brief technica
 *  **Goal:** Design and assemble a multi-stage gear train and cam-follower system in solidworks to achieve a specific output velocity measure in RPM's.
 *  **Skills Learned:** Modeling gears using gear ratio kinematics & 3D Assembly mating
 
-### [Lab 2: dynamic Input & Joystick Control](./Lab_2-Dynamic_Signal_Mapping)
+### [Lab 2: Dynamic Input & Joystick Control](./Lab_2-Dynamic_Signal_Mapping)
 * **Goal:** Interface a 2-axis joystick to control a LED PWM, Servo positioning, and an active Buzzer.
 * **Skills Learned:** Analog-to-Digital Mapping & Puilse Width Modulation (PWM) control.
