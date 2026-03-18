@@ -28,8 +28,8 @@ myServo.write(servoAngle);
 // Mapping Joystick to LED Intensity
 int ledPWM = map(xVal, 0, 1023, 0, 255);
 analogWrite(ledPin, ledPWM);
+```
 
-'''
 * **10-bit Input:** The Arduino `analogRead()` function returns a value between **0 and 1023**
 * **8-bit Output:** The `analogWrite()` function for the LED requires a value between **0 and 255**
 * **Servo Range:** The `myServo.write()` function expects an angle between **0 and 180**
