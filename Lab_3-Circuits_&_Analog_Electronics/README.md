@@ -19,4 +19,4 @@ Analyzed the behavuior of an inductor in a DC circuit with a flyback diode.
 Implemented an Addition and Subtraction (Differential) circuits using an Op-Amp driven by ($+/-30V$)
 * **Addition:** Calculated and verified the inverted output for various feedback resistor $RF$ values
 * **Subtraction:** Analyzed a differential amplifier to remain within the power supply rails
-* **Saturation Analysis:** Identitied that an $RF$ of $25\KΩ&
+* **Saturation Analysis:** Identitied that an $RF$ of $25\KΩ$
