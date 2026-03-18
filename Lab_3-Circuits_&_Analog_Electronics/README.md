@@ -19,4 +19,8 @@ Analyzed the behavuior of an inductor in a DC circuit with a flyback diode.
 Implemented an Addition and Subtraction (Differential) circuits using an Op-Amp driven by ($+/-30V$)
 * **Addition:** Calculated and verified the inverted output for various feedback resistor $RF$ values
 * **Subtraction:** Analyzed a differential amplifier to remain within the power supply rails
-* **Saturation Analysis:** Identitied that an $RF$ of $25\KΩ$
+* **Saturation Analysis:** Identitied that an $RF$ of $25KΩ$ in the adder circuit clipping at $-30V$
+
+## TinkerCad Link
+* **All Circuit Designs:** https://www.tinkercad.com/things/3pIT7zE8izT-lab3/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=Ng7uSgi3bW6zNBbpckOPGm0xddNo-MY_saK6v8q4XhA
+
