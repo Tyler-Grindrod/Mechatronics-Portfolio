@@ -17,4 +17,4 @@ Analyzed the behavuior of an inductor in a DC circuit with a flyback diode.
 
 ### 3. Op-Amp Signal Processing
 Implemented an Addition and Subtraction (Differential) circuits using an Op-Amp driven by ($+/-30V$)
-* **Addition:** Calculated and verified the inverted output for various feedbacl resistor ($R_F$) values. 
+* **Addition:** Calculated and verified the inverted output for various feedbacl resistor ($RF$) values. 
