@@ -5,8 +5,8 @@ This project focused on using an **Arduino Uno R3** to process analog signals fr
 
 ## System Functionality
 The system monitors three independent inputs from the joystick to control different actuators:
-1.  **Throttle Control (X-axis):** Maps analog values ($0-1023$) to LED brightness using PWM ($0-255$).
-2.  **Steering Control (Y-axis):** Maps analog values (0-1023) to a Micro Servo angle (0°→180°).
+1.  **Throttle Control (X-axis):** Maps analog values ($0→1023$) to LED brightness using PWM ($0→255$).
+2.  **Steering Control (Y-axis):** Maps analog values (0→1023) to a Micro Servo angle ($0°→180°$).
 3.  **Buzzer Switch:** Pressing the joystick toggle activates an active Piezo buzzer.
 
 ## Hardware Stack
