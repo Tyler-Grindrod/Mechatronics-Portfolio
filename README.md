@@ -25,6 +25,6 @@ Each folder below contains the source code, circuit diagrams, and brief technica
 *  **Goal:** Format Arduino serial monitor data for an easy excel import.
 *  **Skills Learned:** Defining sensor input, formatting snesor data into a CSV-ready structure, and converting raw ADC bits into voltage readings.
 
-### [Lab 1: Mechanical Systems and Lab Assembly](./Lab_1-solidWorks)
+### [Lab 1: Mechanical Systems and Lab Assembly](./Lab_1-SolidWorks)
 *  **Goal:** Design and assemble a multi-stage gear train and cam-follower system in solidworks to achieve a specific output velocity measure in RPM's.
 *  *Skills Learned:** Modeling gears using gear ratio kinematics & 3D Assembly mating
