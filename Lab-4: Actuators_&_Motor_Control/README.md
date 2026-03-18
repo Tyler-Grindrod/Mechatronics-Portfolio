@@ -38,7 +38,6 @@ analogWrite(en12, speed);      // Send PWM signal to H-Bridge
 ###  2. Stepper Motor Control
 The stepper motor was programmed with a custom stepping sequence to manage psotion and speed. 
 *  **Speed Control:** The potentiometer adjusts the `delayMicroseconds()` between steps
-*  **Deadband:** A "ddeadzone" was implemented at the potentiometer's center to prevent unintended movement.
 *  **Manual Toggling:** To workaround using  library for the movement, this implemntation manually toggles the `IN1-IN4` pins to compelete the full-step sequence.
 
 ```cpp
@@ -66,6 +65,9 @@ if (abs(distanceFromCenter) < deadband) {
 }
 delayMicroseconds(delayValue); // Control rotational speed
 ```
+## Explanation:
+*    **Deadband:** A ```cpp int deadband = 30;``` 
+
 
 ##  Performance Data
 The relationship between the analog input voltage and the motor output was verified as being linear.
