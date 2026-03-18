@@ -67,11 +67,25 @@ delayMicroseconds(delayValue); // Control rotational speed
 ```
 ## Explanation:
 *    **Deadband:** A `int deadband = 30;` was used to prevent the motor from vibrating when the potentiometer is physically centered but the signal has a slight noise
-*    **Variable Timing:** Speed is controlled by the 
+*    **Variable Timing:** Speed is controlled by the `delyMicroseconds(delayValue)`. A shorter delay results in higher stepper frequency and faster rotation.
+*    **Stepper Sequence:** The code manually cycles through the coils to create the magnetic field of roation requried for the stepper to turn
 
 
 ##  Performance Data
 The relationship between the analog input voltage and the motor output was verified as being linear.
+*    **Stability:** Printing to the Serial monitor every single loopc an cause "stuttering" in motor movement. This counter ensures data is sent every 200 cycles, maintaing smoother motor operation, 
+
+```
+static int counter = 0;
+counter++;
+
+if(counter > 200) {
+    Serial.print(voltage);      // X-axis: Input Voltage
+    Serial.print(";");          // Separator
+    Serial.println(delayValue); // Y-axis: Delay in microseconds
+    counter = 0;
+}
+```
 
 ## Youtube Link
 https://youtube.com/shorts/EDRIIpdeKsc
