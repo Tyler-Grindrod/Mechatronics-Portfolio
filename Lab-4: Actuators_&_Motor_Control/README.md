@@ -13,7 +13,8 @@ Using a Potentiometer, the motor speed is controlled via Pulse Width Modulation 
 *  **Full Left/Right:** Motor Reaches maximum speed (255 PWM)
 *  **Hardware:** L293D/L298N H-Bridge for polarity switching
 
-` // Logic for Direction and Speed
+```cpp
+// Logic for Direction and Speed
 int pot = analogRead(POT);
 int value = pot - 512; // Center the 0-1023 input
 value = value / 2;     // Scale to approx. 0-255
@@ -30,7 +31,8 @@ if (value > 0) {
 }
 
 int speed = abs(value);        // Absolute value for PWM
-analogWrite(en12, speed);      // Send PWM signal to H-Bridge `
+analogWrite(en12, speed);      // Send PWM signal to H-Bridge
+```
 
 
 
