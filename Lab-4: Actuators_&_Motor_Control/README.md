@@ -66,7 +66,8 @@ if (abs(distanceFromCenter) < deadband) {
 delayMicroseconds(delayValue); // Control rotational speed
 ```
 ## Explanation:
-*    **Deadband:** A ```cpp int deadband = 30;``` 
+*    **Deadband:** A `int deadband = 30;` was used to prevent the motor from vibrating when the potentiometer is physically centered but the signal has a slight noise
+*    **Variable Timing:** Speed is controlled by the 
 
 
 ##  Performance Data
