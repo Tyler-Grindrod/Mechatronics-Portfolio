@@ -36,4 +36,6 @@ Each folder below contains the source code, circuit diagrams, and brief technica
 ### [Lab 3: Circuit Design & Analog Electronics](./Lab_3-Circuits_&_Analog_Electronics)
 * **Goal:** Design and simulate analog circuits including OP-Amp Addition/Subtraction, Indusctor time constant, and Temperature Comparators.
 * **Skills Learned:** Signal Processing with OP-Amps & Passive Dynamcis.
+
+### [Lab 4: Acuators & Motor Control](./Lab_4-Actuators_&_Motor_Control)
   
