@@ -4,14 +4,14 @@
 This lab focused on interfacing an **Arduino Uno R3** with high-current actuators.
 
 ## System Functionality
-* **Polaritity Switching:** `gate1` and `gate2` control the H-bridge gates to flip the voltage across the motor
-* **Linear Mapping:** Using `abs(Value)` ensure the motor spins gaster as the potentiometer moves further away from the center in either direction. 
 
 ###  1. Bidirectional DC Motor Control
 Using a Potentiometer, the motor speed is controlled via Pulse Width Modulation (PWM).
 *  **Center Position:** Motor is off (0 PWM)
 *  **Full Left/Right:** Motor Reaches maximum speed (255 PWM)
 *  **Hardware:** L293D/L298N H-Bridge for polarity switching
+*  **Polaritity Switching:** `gate1` and `gate2` control the H-bridge gates to flip the voltage across the motor
+*  **Linear Mapping:** Using `abs(Value)` ensure the motor spins gaster as the potentiometer moves further away from the center in either direction. 
 
 ```cpp
 // Logic for Direction and Speed
@@ -33,8 +33,6 @@ if (value > 0) {
 int speed = abs(value);        // Absolute value for PWM
 analogWrite(en12, speed);      // Send PWM signal to H-Bridge
 ```
-
-
 
 
 ###  2. Stepper Motor Control
