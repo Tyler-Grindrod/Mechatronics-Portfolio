@@ -11,6 +11,8 @@ Using a Potentiometer, the motor speed is controlled via Pulse Width Modulation 
 *  **Full Left/Right:** Motor Reaches maximum speed (255 PWM)
 *  **Hardware:** L293D/L298N H-Bridge for polarity switching
 
+
+
 ###  2. Stepper Motor Control
 The stepper motor was programmed with a custom stepping sequence to manage psotion and speed. 
 *  **Speed Control:** The potentiometer adjusts the `delayMicroseconds()` between steps
@@ -19,4 +21,7 @@ The stepper motor was programmed with a custom stepping sequence to manage psoti
 ##  Performance Data
 The relationship between the analog input voltage and the motor output was verified as being linear.
 
-## Media
+## Youtube Link
+https://youtube.com/shorts/EDRIIpdeKsc
+
+
