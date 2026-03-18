@@ -19,11 +19,12 @@ This repository contains a collection of suepr rad labs and projects completed a
 ---
 
 ## Repository Structure
-Each folder below contains the source code, circuit diagrams, and brief technical summaries.
+Each folder below contains the source code, circuit diagrams, and brief technical summaries
 
 ### [Lab 0: Arduino Data to CSV](./Lab_0-CSV.ino)
 *  **Goal:** Format Arduino serial monitor data for an easy excel import.
 *  **Skills Learned:** Defining sensor input, formatting snesor data into a CSV-ready structure, and converting raw ADC bits into voltage readings.
 
-### [Lab 1: Solidwords Model](./Lab_1)
-* 
+### [Lab 1: Mechanical Systems and Lab Assembly](./Lab_1-solidWorks)
+*  **Goal:** Design and assemble a multi-stage gear train and cam-follower system in solidworks to achieve a specific output velocity measure in RPM's.
+*  *Skills Learned:** Modeling gears using gear ratio kinematics & 3D Assembly mating
