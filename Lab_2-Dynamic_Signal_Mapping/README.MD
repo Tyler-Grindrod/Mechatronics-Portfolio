@@ -17,6 +17,9 @@ The system monitors three independent inputs from the joystick to control differ
 ## Logic Mapping
 The core of this lab is the `map()` function, which linearizes the joystick's voltage input into usable ranges for the actuators
 
+##Youtube Link: 
+https://youtu.be/kf10Zy_-o3U
+
 ```cpp
 // Mapping Joystick to Servo Angle
 int servoAngle = map(yVal, 0, 1023, 0, 180);
@@ -26,4 +29,5 @@ myServo.write(servoAngle);
 int ledPWM = map(xVal, 0, 1023, 0, 255);
 analogWrite(ledPin, ledPWM);
 
-https://youtu.be/kf10Zy_-o3U
+EFefF
+
