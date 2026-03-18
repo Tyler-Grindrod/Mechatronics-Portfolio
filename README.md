@@ -25,4 +25,5 @@ Each folder below contains the source code, circuit diagrams, and brief technica
 *  **Goal:** Format Arduino serial monitor data for an easy excel import.
 *  **Skills Learned:** Defining sensor input, formatting snesor data into a CSV-ready structure, and converting raw ADC bits into voltage readings.
 
-
+### [Lab 1: Solidwords Model](./Lab_1)
+* 
