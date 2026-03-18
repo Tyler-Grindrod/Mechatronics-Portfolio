@@ -5,7 +5,7 @@
 **University:** University of Central Florida
 
 ## Overview
-This repository contains a collection of suepr rad labs and projects completed as part of the EML 4301C Mechatronics course. It covers thhe integration of mechanical Systems, electronics, and control theory using C++ and various miccontrollers. 
+This repository contains a collection of super rad labs and projects completed as part of the EML 4301C Mechatronics course. It covers the integration of mechanical Systems, electronics, and control theory using C++ and various miccontrollers. 
 
 ---
 
