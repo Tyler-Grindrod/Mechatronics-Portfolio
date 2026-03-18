@@ -38,4 +38,6 @@ Each folder below contains the source code, circuit diagrams, and brief technica
 * **Skills Learned:** Signal Processing with OP-Amps & Passive Dynamcis.
 
 ### [Lab 4: Acuators & Motor Control](./Lab_4-Actuators_&_Motor_Control)
+* **Goal:** Implement bidrectional speed control for DC and Stepper motors using Pulse Width Modulation (PWM) and stepper logic.
+* **Skills Learned:** Stepper logic Sequences & Electric Motor Interface.
   
