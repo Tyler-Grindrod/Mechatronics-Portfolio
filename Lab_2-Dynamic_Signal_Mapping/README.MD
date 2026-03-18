@@ -37,7 +37,7 @@ analogWrite(ledPin, ledPWM);
 ## Technical Challenges and Lessons Learned
 1. **Signal Stability & Jitters**
 During the initial testing, the servo motor exhibited "chatter", known as micro-oscillations when the joystick was at the point of origin.
-* **The Fix:** I implemented a 'delay(10);' at the end of the 'loop()' to provide a stability window for the Analog-to-Digital Converter (ADC).
+* **The Fix:** I implemented a `delay(10);` at the end of the `loop()` to provide a stability window for the Analog-to-Digital Converter (ADC).
 * **Future Improvement:** In a robust application, I would implement a **Deadband** to eliminate the jitter without increasing the loop speed.
 
 2. **Power Management**
