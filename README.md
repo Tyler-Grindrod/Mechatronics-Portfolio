@@ -40,4 +40,6 @@ Each folder below contains the source code, circuit diagrams, and brief technica
 ### [Lab 4: Acuators & Motor Control](./Lab_4-Actuators_&_Motor_Control)
 * **Goal:** Implement bidrectional speed control for DC and Stepper motors using Pulse Width Modulation (PWM) and stepper logic.
 * **Skills Learned:** Stepper logic Sequences & Electric Motor Interface.
+
+### [Lab 5: Sensors & Data Acquisition](./Lab_5-Sensors_&_Data_Acquisition)
   
