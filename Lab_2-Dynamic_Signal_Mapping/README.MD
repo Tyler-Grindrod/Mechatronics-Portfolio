@@ -17,7 +17,7 @@ The system monitors three independent inputs from the joystick to control differ
 ## Logic Mapping
 The core of this lab is the `map()` function, which linearizes the joystick's voltage input into usable ranges for the actuators
 
-##Youtube Link: 
+## Youtube Link: 
 https://youtu.be/kf10Zy_-o3U
 
 ```cpp
@@ -29,5 +29,7 @@ myServo.write(servoAngle);
 int ledPWM = map(xVal, 0, 1023, 0, 255);
 analogWrite(ledPin, ledPWM);
 
-EFefF
-
+'''
+* **10-bit Input:** The Arduino `analogRead()` function returns a value between **0 and 1023**
+* **8-bit Output:** The `analogWrite()` function for the LED requires a value between **0 and 255**
+* **Servo Range:** The `myServo.write()` function expects an angle between **0 and 180**
