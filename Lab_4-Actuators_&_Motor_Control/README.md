@@ -75,7 +75,7 @@ delayMicroseconds(delayValue); // Control rotational speed
 The relationship between the analog input voltage and the motor output was verified as being linear.
 *    **Stability:** Printing to the Serial monitor every single loopc an cause "stuttering" in motor movement. This counter ensures data is sent every 200 cycles, maintaing smoother motor operation, 
 
-```
+```cpp
 static int counter = 0;
 counter++;
 
