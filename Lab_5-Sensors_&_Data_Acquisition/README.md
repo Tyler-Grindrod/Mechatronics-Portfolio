@@ -8,7 +8,7 @@ This lab focused on practical application of analog and digital sensors. The pro
 ###  1. Photoresistor
 Optimize the sensitivty of a phtoresistor, different passive resistors (1kΩ, 5kΩ, 10kΩ, 20kΩ, 30kΩ) were tested in a voltage divider configuration.
 *  **Objective:** Find the reistor that provides the best range of operation and linear sensitivity.
-*  **Findings:** A 10kΩ resistor was found the be the best match, providing a wife range of output bits relative to the fluctuation of lumens.
+*  **Findings:** A 10kΩ resistor was found the be the best match, providing a wide range of output bits relative to the fluctuation of lumens.
 
 
 ### Photoresistor Logic
