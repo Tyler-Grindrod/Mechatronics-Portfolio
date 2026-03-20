@@ -24,7 +24,7 @@ void loop() {
 
 ###  2. Ultrasonic Distance Tracking
 Measure distance from the sensor by calculating the time-of-flight of an ultrasonic pusle. The system sends out a pusle and measure the time it takes for the pulse to reach back to the sensor. 
-*  **Trgger:** A 10µs HIGH pulse is sent to the `trigpin` to initiate the sensor
+*  **Trigger:** A 10µs HIGH pulse is sent to the `trigpin` to initiate the sensor
 *  **Measurement:** The duration of the return echo is converted to inches using the speed of sound
 
 ### Ultrasonic Logic
